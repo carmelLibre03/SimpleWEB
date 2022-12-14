@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+   	padding: 0;
+   	box-sizing: border-box;
+   	scroll-behavior: smooth;
+
+}
+body{
+	margin:0 100px;
+
+}
+
+
+
+.horizontal-nav {
+	border: 5px black solid;
+	position: fixed;
+	height: 60px;
+	width: 1320px;
+	background-color: black;
+	padding-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+a{	
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+
+ul li{
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 5px;
+}
+ul a:hover{
+	background-color: white;
+	color: black;
+}
+.active{
+	background-color: white;
+	color: black;
+}
+
+
+/*----------------------------------------------*/
+
+
+aside {
+	margin-top: 60px;
+	position: fixed;
+	height: 100%;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	width:250px;
+	background-color: #123456;
+	border-top: none;
+}
+aside ul{
+	list-style: none;
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+aside a{
+	color: white;
+	font-size: 17px;
+}
+
+.container {
+	display: flex;
+} 
+
+
+/*--------------------------ARTICLES----------------------------------------*/
+
+main {
+	margin-top: 50px;
+	margin-left: 250px;
+	background-color: #16E2F5;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/*---------------ARTICLE 1---------*/
+
+.article1 {
+	border: 5px solid black;
+	width: 100%;
+	height: 800px;
+	background-image: url("bg1.jpg");
+	}
+
+.personal-data1{
+	margin-left: 100px;
+	margin-top: 70px;
+	margin-bottom: 0;
+	float: left;
+	width: 450px;
+	height: 400px;
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+}
+
+/*----------------------*/
+.personal-data2{
+	border: 5px white solid;
+	margin: 20px;
+	margin-top: 90px;
+	margin-bottom: 0;
+	margin-left: 20px;
+	float: left;
+	
+}
+.myPhoto{
+	margin-left: 40px;
+	margin-top: 50px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+/*----------------------*/
+.personal-data3{
+
+	font-family: Courier New;
+	margin-left: 20px;
+	margin-top: 490px;
+	border: 5px white solid;
+	height: 280px;
+	width: 1018px;
+}
+
+
+
+
+/*-----------------------ARTICLE 2------------------------------------*/
+
+.article2 {
+	border: 5px solid black;
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(to right top, white, pink);
+	color: white;
+}
+.edu-background{
+	margin: 70px;
+	text-align: center;
+	font-family: Arial bold;
+}
+.edu-background1{
+	color: black;
+	margin-top: 70px;
+	margin-left: 0px;
+	border: 3px outset black;	
+	background-image: linear-gradient(to top, gray , white);
+	box-shadow: 5px 5px 1px 1px black;
+	height: 300px;
+	width: 270px;
+}
+.edu-background2{
+	color: black;
+	margin-top: 70px;
+	margin-left: 320px;
+	border: 3px outset black;	
+	background-image: linear-gradient(to top, gray , white);
+	box-shadow: 5px 5px 1px 1px black;	
+	height: 300px;
+	width: 270px;
+}
+.edu-background3{
+	color: black;
+	margin-top: 70px;
+	margin-left: 320px;
+	border: 3px outset black;
+	background-image: linear-gradient(to top, gray , white);
+	box-shadow: 5px 5px 1px 1px black;		
+	height: 300px;
+	width: 270px;
+}
+
+/*--------------------------ARTICLE 3---------------------------------*/
+.article3 {
+	border: 5px solid black;
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(to right bottom, white, hotpink);
+	color: white;
+}
+.f-background{
+	border: 3px outset black;
+	background-image: linear-gradient(to top, gray , white);
+	box-shadow: 5px 5px 1px 1px black;
+	height: 600px;
+	width: 800px;
+	margin-left: 125px;
+	margin-top: 70px;
+	color: black;
+}
+.family-photo{
+	margin: 20px;
+	border: 3px groove black;
+	background-color: white;
+	height: 250px;
+	width: 600px;
+	margin-left: 90px;
+}
+.family-text{
+	border: 3px groove black;
+	background-color: white;
+	height: 250px;
+	width: 700px;
+	margin-left: 50px;
+}
+
+
+footer {
+	position: relative;
+   width: 100%;
+   height: 100px;
+   background-color: black;
+}
+
+/*------------ Travel 1---------------*/
+.travel-box1{
+
+	font-family: arial;
+	margin-left: 20px;
+	margin-top: 70px;
+	border: 5px white solid;
+	height: 700px;
+	width: 1018px;
+}
+.travel-photo1{
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 5px white solid;
+	height: 350px;
+	width: 400px;
+}
+.travel-text1{
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 5px white solid;
+	height: 280px;
+	width: 970px;
+}
+
